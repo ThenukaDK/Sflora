@@ -1,0 +1,113 @@
+body{
+	background-color:#f9f9f9;
+	font-family:'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #369;
+}
+a, a:visited{
+    text-decoration:none;
+}
+a:hover, a:focus{
+    text-decoration:underline;
+}
+img{
+  	vertical-align:top;
+  	outline:none;
+}
+*{
+	margin:0px;
+	padding:0px;
+	outline:none;
+}
+ul{
+	list-style: none;
+}
+div, p{
+	display: block;
+}
+
+/* TIHID Top Nav */
+#tihidANav{
+	width:90%;
+	font-size:12px;
+	background:#fff;
+	color:#444;
+	overflow:hidden;
+	padding:8px 5%;
+}
+#tihidANav a{
+	color: #3B8DBD;
+}
+.tihidANavL{
+	float:left;
+}
+.tihidANavR{
+	float:right;
+}
+/* END TIHID Top Nav */
+
+#tihidWrapper{
+	max-width:640px;
+	width:90%;
+	margin:100px auto;	
+}
+.toggle{
+	display: inline;
+	white-space: nowrap;
+}
+.toggle a{
+	font-size:13px;
+	color: #888;
+	font-weight: bold;
+	padding: 0 1px;
+}
+.error{
+	display: none;
+	color: #F00;
+	font-size: 11px;
+}
+
+.link{
+	margin: 0;
+	margin-bottom: 8px;
+	padding:5px;
+}
+.thumbnail{
+	float: left;
+	margin: 0;
+	margin-right: 5px;
+	width: 70px;
+}
+.entry{
+	overflow: hidden;
+	margin-left: 3px;
+}
+.link .title{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 1px;
+	color: #551a8b;
+	margin-right: 6px;
+	padding: 0px;
+	overflow: hidden;
+}
+.domain, .domain a, .tagline{
+	color: #888;
+	font-size: 11px;	
+}
+.domain{
+	white-space: nowrap;
+}
+.author{
+	margin-right: 8px;
+}
+.subreddit{
+	margin-bottom: 10px;
+}
+.ulList{
+	display: block;
+	padding: 1px 0;	
+}
+

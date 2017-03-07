@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>SFlora | Campaign Monitor</title>
+	
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<link rel="shortcut icon" href="https://img.createsend1.com/favicon.ico?3" />
+<link href="https://css.createsend1.com/css/global.min.css?h=EC4DB58Bcanvas2" media="screen,projection" rel="stylesheet" type="text/css" />
+<link href="https://css.createsend1.com/css/pretty.min.css?h=72A2F552canvas2" media="screen,projection" rel="stylesheet" type="text/css" />
+<link href="https://css.createsend1.com/css/olark.min.css?h=A953D70Dcanvas2" media="screen,projection" rel="stylesheet" type="text/css" />
+<link href="https://css.createsend1.com/css/print.min.css?h=70E44B0Bcanvas2" media="print" rel="stylesheet" type="text/css" />
+<link href="https://css.createsend1.com/css/cm-blue.min.css?h=053497D2canvas2" media="screen,projection" rel="stylesheet" type="text/css" />
+
+<link rel="apple-touch-icon-precomposed" href="https://img.createsend1.com/mobile_themes/cs/img/iOS-120.png" />
+<script type="text/javascript" src="https://js.createsend1.com/js/modernizr.2.6.2.js?h=F2001D54canvas2"></script>
+<script type="text/javascript" src="https://js.createsend1.com/js/jquery-1.7.2.min.js?h=C99A4659canvas2"></script>
+<script type="text/javascript" src="https://js.createsend1.com/js/cm.min.js?h=C565DF4Dcanvas2"></script>
+
+
+    <script type="text/javascript" src="https://js.createsend1.com/js/reports.min.js?h=E1CCEAA6canvas2"></script>
+	<script type="text/javascript">
+
+		$(window).resize(function(){
+			var topbarHeight = $(".bar-mid").height();
+			var paddingHeight = 60;
+			var newHeight = $(window).height() - topbarHeight - paddingHeight;
+			CS.ViewCampaign.changeFrameHeight(newHeight);
+		});
+
+		function change_parent_url(url) {
+	  	document.location = url;
+	}
+	</script>
+
+	<style type="text/css">
+
+		body, html {
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			/*overflow: hidden;*/
+			background: #FFF;
+		}
+		iframe {
+			width: 100%;
+			border-top: 1px solid #c6c6c6;
+		}
+		.ie iframe {
+			margin-top: -2px;
+		}
+
+		.email-client .bar-mid {
+		  /*height: 80px;*/
+		  background: #FFF;
+		  position: relative;
+		  z-index: 10;
+		  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 2px;
+		  -moz-box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 2px;
+		  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 2px;
+		}
+		.email-client .bar-mid .details {
+		  padding: 20px 0px 20px 0px;
+		  /*float: left;*/
+		  min-width: 320px;
+		  width: 100%;
+		}
+		.email-client .bar-mid .details .avatar {
+		  width: 38px;
+		  height: 38px;
+		  background: url(../img/subscriber-notifications/avatar-email-client.jpg) no-repeat;
+		  display: inline-block;
+		  float: left;
+		  margin-right: 10px;
+		  margin-left: 20px;
+		}
+		.email-client .bar-mid .details .text {
+		  /*float: left;*/
+		  width: 45%;
+		  display: inline-block;
+		}
+		.email-client .bar-mid .details .text p {
+		  color: #888888;
+		  font-size: 13px;
+		  padding-bottom: 2px;
+		}
+		.button-group {
+			width: 130px;
+			position: absolute;
+			top: 29px;
+			right: 20px;
+		}
+
+		.print-preview {
+			color: #888 !important;
+			position: absolute;
+			top: 33px;
+			right: 165px;
+		}
+
+		.dynamic-content {
+			width: 220px;
+			display: block;
+			background: #595d65;
+			float: left;
+			padding: 30px;
+			margin: 0px;
+			color: #FFF;
+			overflow: auto;
+	  		-moz-box-shadow:    inset -4px 0px 9px -6px #000;
+	  		-webkit-box-shadow: inset -4px 0px 9px -6px #000;
+	  		box-shadow:         inset -4px 0px 9px -6px #000;
+
+		}
+
+		.dynamic-content .title {
+			color: #b8babc;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+		.dynamic-content .custom-field {
+			font-size: 14px;
+			font-weight: bold;
+			border-bottom: #686b72 solid 1px;
+			padding-bottom: 3px;
+			margin: 25px 0px 10px 0px;
+			display: block;
+		}
+
+		.dynamic-content label{
+			width: 100%;
+			text-align: left;
+			font-weight: normal;
+			margin-bottom: 5px;
+			float: none;
+		}
+
+		.email-preview {
+			margin-left: 280px;
+			background: #FFF;
+		}
+
+		@media only screen 
+		and (max-width : 580px) {
+
+			.button-group {
+				position: relative;
+				top: auto;
+				right: auto;
+				margin-left: 69px;
+				margin-top: 10px;
+			}
+
+			.print-preview {
+				position: relative;
+				top: auto;
+				right: auto;
+				margin-left: 15px;
+				margin-top: 3px;
+				display: inline-block;
+			}
+
+			.email-client .bar-mid .details .text {
+				width: 75%;
+			}
+		}
+
+   </style>
+</head>
+<body>
+    <div id="htmlPreview" >
+		
+		<div id="htmlDetails" class="email-client">
+			<div class="bar-mid">
+				<div class="details">
+
+					<div class="avatar"></div>
+					<div class="text">
+
+						
+
+						<p><strong>From:</strong> SFlora &lt;sfloranursery&#64;gmail.com&gt;</p>
+						
+						
+
+						<p><strong>Subject:</strong> SFlora Confirmation</p>
+						
+							
+					</div>
+
+					
+						<div class="button-group" style="display: none">
+							<a href="#" class="button small selected">HTML</a>
+							<a href="#" class="button small" onclick="CS.ViewCampaign.toggleVersion();return false;">Plain text</a>
+						</div>
+					
+					
+					<a href="https://sflora.createsend.com/t/ViewEmail/t/859A1240EF9627E5/C67FD2F38AC4859C/" target="_blank" class="print-preview">Print preview</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="dc-html" class="dynamic-content" style="display: none">
+		    <form action="https://sflora.createsend.com/t/ViewEmailInIFrame/t/859A1240EF9627E5/C67FD2F38AC4859C/" method="post" target="htmlFrame">
+			<div class="title">Dynamic content</div>
+			<section class="new-form">
+                
+			</section>
+            </form>
+		</div>
+
+		<div class="email-preview" id="htmlWrap" style="margin-left: 0">
+		<iframe id="htmlFrame" name="htmlFrame" src="https://sflora.createsend.com/t/ViewEmailInIFrame/t/859A1240EF9627E5/C67FD2F38AC4859C/" width="100%" frameborder="0" scrolling="auto" class="frame"></iframe>
+		</div>
+	    
+    </div>
+
+    <div id="textPreview" style="display:none" >
+	    
+		<div id="textDetails" class="email-client">
+			<div class="bar-mid">
+				<div class="details">
+					<div class="avatar"></div>
+					<div class="text">
+						<p><strong>From:</strong> SFlora &lt;sfloranursery&#64;gmail.com&gt;</p>
+						<p><strong>Subject:</strong> SFlora Confirmation</p>
+					</div>
+
+					
+						<div class="button-group" style="display: none">
+							<a class="button small" href="#" onclick="CS.ViewCampaign.toggleVersion();return false;">HTML</a>
+							<a href="#" class="button small selected">Plain text</a>
+						</div>
+					
+
+					<a href="https://sflora.createsend.com/t/ViewEmail/t/859A1240EF9627E5/C67FD2F38AC4859C/text/" target="_blank" class="print-preview">Print preview</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="dc-text" class="dynamic-content" style="display: none">
+		    <form action="https://sflora.createsend.com/t/ViewEmailInIFrame/t/859A1240EF9627E5/C67FD2F38AC4859C/text/" method="post" target="textFrame">
+			<div class="title">Dynamic content</div>
+			<section class="new-form">
+                
+			</section>
+            </form>
+		</div>
+
+			<div class="email-preview" id="textWrap" style="margin-left: 0">
+				<iframe id="textFrame" name="textFrame"  src="https://sflora.createsend.com/t/ViewEmailInIFrame/t/859A1240EF9627E5/C67FD2F38AC4859C/text/" width="100%" frameborder="0" scrolling="auto" class="frame"></iframe>
+			</div>
+		    
+    	</div>
+
+
+
+
+<script type="text/javascript">
+
+	var docHeight = $(document).height();
+	var topbarHeight = $(".bar-mid").height();
+	var paddingHeight = 60;
+
+	$(".frame").css("height", docHeight - topbarHeight - 1 + "px");
+	$('.dynamic-content').height(docHeight - topbarHeight - paddingHeight);
+	$(function () { $(".ko-radio").bind('change', function (e) { $(this).closest('form').trigger('submit'); }); });
+	
+	CS.ViewCampaign.showVersionSwitcher();
+
+
+</script>
+</body>
+</html>
